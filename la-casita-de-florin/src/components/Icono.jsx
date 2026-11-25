@@ -1,6 +1,6 @@
 import {
   CookingPot, Refrigerator, Flame, Trees, Droplets, Tv, BedDouble, ShowerHead,
-  Armchair, ShieldCheck, Sprout, Utensils,
+  Armchair, ShieldCheck, Sprout, Utensils, Car, Circle, Bed,
 } from 'lucide-react';
 
 const ICONOS = {
@@ -15,10 +15,14 @@ const ICONOS = {
   sillon: Armchair,
   seguridad: ShieldCheck,
   calle: Sprout,
-  mesa: Utensils,
+  mesa: Circle,
+  cubiertos: Utensils,
+  auto: Car,
+  frazada: Bed,
 };
 
 export default function Icono({ nombre, size = 22 }) {
   const Componente = ICONOS[nombre] ?? Trees;
   return <Componente size={size} strokeWidth={1.75} aria-hidden="true" />;
 }
+

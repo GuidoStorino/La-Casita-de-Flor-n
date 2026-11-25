@@ -22,15 +22,22 @@ export const casa = {
   // Comodidades que se ven en las fotos. Sumá o sacá las que correspondan.
   // Íconos disponibles: cocina, heladera, parrilla, patio, agua, tv, cama, bano, sillon, seguridad, calle, mesa
   comodidades: [
-    { icono: 'parrilla', titulo: 'Parrilla en el patio', texto: 'Parrilla de material con mesada, lista para un asado.' },
     { icono: 'patio', titulo: 'Patio propio', texto: 'Espacio al aire libre con plantas, para el mate y la sobremesa.' },
-    { icono: 'cocina', titulo: 'Cocina a gas con horno', texto: 'Cocina a gas con horno y bacha con mesada.' },
-    { icono: 'heladera', titulo: 'Heladera con freezer', texto: 'Heladera de dos puertas para toda la estadía.' },
-    { icono: 'agua', titulo: 'Agua caliente', texto: 'Termotanque para tener agua caliente.' },
-    { icono: 'bano', titulo: 'Dos baños con ducha', texto: 'Uno de ellos con bidet.' },
-    { icono: 'cama', titulo: 'Dos dormitorios', texto: 'Uno con cama matrimonial y placard, otro con cucheta y cama individual.' },
-    { icono: 'sillon', titulo: 'Cama nido en el living', texto: 'Lugar extra para dormir sin ocupar un dormitorio.' },
+    { icono: 'parrilla', titulo: 'Parrilla en el patio', texto: 'Parrilla de material con mesada, lista para un asado.' },
+    { icono: 'auto', titulo: 'Estacionamiento', texto: 'Lugar en el frente de la casa para estacionar el auto.' },
+    { icono: 'cocina', titulo: 'Cocina a gas con garrafa', texto: 'Cocina a gas con garrafa y bacha con mesada.' },
+    { icono: 'cubiertos', titulo: 'Cubiertos', texto: 'La casita cuenta con vajilla y cubiertos.' },
     { icono: 'mesa', titulo: 'Comedor con mesa redonda', texto: 'Mesa con sillas de pino y sillones con almohadones.' },
+    { icono: 'bano', titulo: 'Dos baños con ducha', texto: 'Uno de ellos con bidet.' },
+    { icono: 'agua', titulo: 'Agua caliente', texto: 'Termotanque para tener agua caliente.' },
+    { icono: 'heladera', titulo: 'Heladera con freezer', texto: 'Heladera de dos puertas para toda la estadía.' },
+    { icono: 'cama', titulo: 'Dos dormitorios', texto: 'Uno con cama matrimonial y placard, otro con cucheta y cama individual.' },
+    { icono: 'frazada', titulo: 'Frazadas', texto: 'Equipada con frazadas para las noches frescas.' },
+    { icono: 'sillon', titulo: 'Cama nido en el living', texto: 'Lugar extra para dormir sin ocupar un dormitorio.' },
+    
+    
+    
+    
   
   ],
 
